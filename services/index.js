@@ -2,7 +2,7 @@
 
 export const register_user = async (formData) => {
     try {
-        const res = await fetch('http://login-signup-seven-alpha.vercel.app/api/Auth/register', {
+        const res = await fetch('https://login-signup-oy7zdbute-richa-sahus-projects.vercel.app/api/Auth/register', {
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -20,7 +20,7 @@ export const register_user = async (formData) => {
 
 export const login_user = async (formData) => {
     try {
-        const res = await fetch('https://login-signup-seven-alpha.vercel.app/api/Auth/login', {
+        const res = await fetch('https://login-signup-oy7zdbute-richa-sahus-projects.vercel.app/api/Auth/login', {
             headers: {
                 'Content-Type': 'application/json',
             },
