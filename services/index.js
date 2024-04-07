@@ -1,9 +1,9 @@
 export const register_user = async (formData) => {
     try {
-        const res = await fetch('https://login-signup-oy7zdbute-richa-sahus-projects.vercel.app/api/Auth/register', {
+        const res = await fetch('https://login-signup-rb1d.onrender.com/api/Auth/register', {
             headers: {
                 'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': 'https://login-signup-mp14k1voy-richa-sahus-projects.vercel.app'
+                'Access-Control-Allow-Origin': 'https://login-signup-rb1d.onrender.com/'
             },
             method: 'POST',
             body: JSON.stringify(formData),
@@ -18,10 +18,10 @@ export const register_user = async (formData) => {
 
 export const login_user = async (formData) => {
     try {
-        const res = await fetch('https://login-signup-oy7zdbute-richa-sahus-projects.vercel.app/api/Auth/login', {
+        const res = await fetch('https://login-signup-rb1d.onrender.com//api/Auth/login', {
             headers: {
                 'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': 'https://login-signup-mp14k1voy-richa-sahus-projects.vercel.app'
+                'Access-Control-Allow-Origin': 'https://login-signup-rb1d.onrender.com/'
             },
             method: 'POST',
             body: JSON.stringify(formData),
